@@ -82,6 +82,10 @@ Due to the potential effect on Azure Active Directory environments with respect 
 
 Due to the limited scope of Server core installations, these are not supported by Security Management for Microsoft Defender for Endpoint.
 
+### PowerShell Constrained Language
+
+Security Management for Microsoft Defender for Endpoint will not be able to apply security settings on devices if PowerShell Contrained Language mode is activated.
+
 ## Next steps
 
 [Monitor Defender for Endpoint](../protect/advanced-threat-protection-monitor.md)  
